@@ -1,0 +1,447 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+scroll-behavior: smooth;
+
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif
+}
+
+/*Burger menu*/
+.burger {
+display: none;
+}
+
+
+/* HERO SECTION */
+.hero-image {
+  height: 500px;
+  width: 100%;
+  background-image: url("images/skater.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text {
+  font-size: 70px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hero-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background: #FC3D18;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 250px;
+  position: relative;
+}
+
+
+
+.hero-button:hover {
+  background: #791e0c;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px #791e0c;
+  transform: scale(1.05)
+}
+
+
+.skater-image-container img {
+  width: auto;
+  height: 250px;
+}
+
+.London {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+
+.hero-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: red;
+}
+
+.hero-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.intro-title {
+  margin-bottom: 14px;
+  margin-top: 5px;
+  color: white;
+}
+
+ 
+.intro-text {
+  margin-bottom: 14px;
+  color: white;
+ 
+} 
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: -100px;
+ margin-top: 20px;
+
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sub {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar{
+  background: white ;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding:0 50px; 
+  background-color: red;
+}
+
+
+
+#navbar__logo {
+color: white; 
+background-size: 100%;
+display: flex;
+align-items: center;
+cursor: pointer;
+text-decoration: none;
+font-size: 2rem;
+font-weight: 700;
+
+}
+
+.fa-gem {
+margin-right: 0.5rem;
+}
+       
+
+.nav{
+display: flex;
+align-items: center;
+          list-style: none;
+          text-align: center;
+}
+
+.navbar__item{
+  height: 80px;
+  
+      
+}
+.navbar__links {
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 1rem;
+          height: 100%;
+          text-decoration: none;
+}
+.button {
+  color: white;
+  text-decoration: none;
+}
+
+ /*footer CSS */
+
+ .footer__container {
+  background-color: black;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#footer__logo {
+color: white;
+display: flex;
+align-items: center;
+cursor: pointer;
+text-decoration: none;
+font-size: 18px;
+
+justify-content: center;
+
+
+}
+
+.foter__links {
+width: 100%;
+max-width: 1000px;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+}
+
+.footer__link--wrapper {
+display: flex;
+
+
+}
+
+.footer__link--items {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin: 16px;
+text-align: left;
+width: 160px;
+box-sizing: border-box;
+}
+.footer__link--items h2 {
+margin-bottom: 16px;
+color: white;
+
+}
+.footer__link--items a {
+color: white;
+text-decoration: none;
+margin-bottom: 0.5rem;
+
+}
+
+.footer__link--items a:hover {
+color: white;
+transition: 0.3s ease-out;
+
+}
+/*Social icons */
+
+.social__icon--link {
+color: white;
+font-size: 25px;
+
+}
+
+.social__media {
+max-width: 1000px;
+width: 100%;
+}
+
+.social__madia--wrap {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+max-width: 100px;
+margin: 200px;
+}
+
+.social__icons {
+
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 15px;
+
+
+
+}
+
+form{
+display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact {
+padding-top: 25px;
+}
+.sub{
+margin-top: 25px;
+}
+
+/*gallery*/
+
+
+
+
+
+
+.container {
+display: flex;
+
+}
+
+.images-container{
+
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+row-gap: 12px;
+padding-top: 50px;
+padding-bottom: 15px;
+margin-left: 20px;
+margin-right: 20px;
+
+
+
+}
+
+.ll{
+width: 600px;
+height: 800px;
+object-fit: cover;
+cursor: pointer;
+
+
+}
+
+#contact {
+scroll-margin: 80px;
+}
+
+/*responsive desgn*/
+@media screen and (max-width: 842px) {
+
+.burger{
+  position: relative;
+  display:block;
+  cursor: pointer;
+}
+.burger span {
+  padding: 0.2rem 0.2rem;
+  background-color: white;
+  margin: 0.5rem 0rem;
+  display:block;
+  transition:all 0.5s ease;
+}
+.nav-open {
+  transform: translate(-100%);
+}
+
+.toggle.line1 {
+  transform: rotateZ (45deg) translateY(300%);
+  background: white;
+}
+
+.toggle.line2 {
+opacity: 0;
+}
+
+.toggle.line3 {
+  transform: rotateZ (-45deg) translateY(-300%);
+  background: white;
+}
+.nav {
+
+background-color: #414141;
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 100%;
+flex-direction: column;
+display: flex;
+flex-direction: column;
+align-items: center;
+transition: transform 1s ease;
+
+}
+
+.nav a {
+ color: white;
+ text-decoration: underline;
+ font-size: 20px;
+ 
+}
+
+}
+
+
